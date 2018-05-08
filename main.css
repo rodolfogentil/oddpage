@@ -3,7 +3,7 @@ main h1 {
     background-color: #2850CE;
     color: #FFFFFF;
     text-align: center;
-    
+    padding: 20px;  
 }
 h2 { 
    font-size: 40px;
@@ -11,4 +11,16 @@ h2 {
 }
 p {
    font-size: 30px;
+}
+blockquote {
+    text-align: center;
+    padding: 16px;
+    margin: 0;
+    border: 10px solid #C2CCCA;
+    width: 198px;
+    box-sizing: border-box;
+}
+
+aside {
+    text-align: center;
 }
