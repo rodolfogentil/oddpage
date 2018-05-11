@@ -25,4 +25,13 @@ blockquote {
 
 aside {
     text-align: center;
+    font-family: 'Metal Mania', cursive;
+    background-color: #2850CE;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+ul {
+    display: inline;
+
 }
