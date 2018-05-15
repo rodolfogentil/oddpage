@@ -4,7 +4,7 @@ main h1 {
     color: #FFFFFF;
     text-align: center;
     padding: 20px;  
-       
+    text-transform: uppercase;      
 }
 h2 { 
    font-size: 40px;
@@ -34,4 +34,11 @@ aside {
 .icones-sociais li{
     display: inline;
 
+}
+.icones-sociais a {
+    background-image: url(github.png);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
 }
