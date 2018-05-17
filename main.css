@@ -1,14 +1,18 @@
-main h1 {
+ .tituloPagina {
     font-family: 'Metal Mania', cursive;
     background-color: #2850CE;
     color: #FFFFFF;
     text-align: center;
-    padding: 20px;  
-    text-transform: uppercase;      
+    padding: 15px;
+    margin: 0;
+    text-transform: uppercase;  
+    width: 100%;
+    font-size: 100px;
 }
 h2 { 
    font-size: 40px;
    font-family: "Time News Romans",sans-serif;
+   clear: both;
 }
 p {
    font-size: 30px;
@@ -21,6 +25,7 @@ blockquote {
     border: 10px solid #C2CCCA;
     width: 198px;
     box-sizing: border-box;
+    float: left;
 }
 
 aside {
@@ -29,6 +34,9 @@ aside {
     background-color: #2850CE;
     color: #FFFFFF;
     text-align: center;
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
 }
 
 .icones-sociais li{
@@ -41,4 +49,29 @@ aside {
     height: 40px;
     display: block;
     text-indent: -99999px;
+}
+footer{
+    clear: both;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: #FFFFFF;
+
+}
+.umacitacao{
+    float: right;
+}
+.primeiracitacao{
+    float: left;
+}
+.github {
+    background-image: url(github.png);
+}
+
+.twitter {
+     background-image: url(twitter.png);
+}
+
+.linkedin {
+    background-image: url(linkedin.png);
 }
